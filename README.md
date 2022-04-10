@@ -10,9 +10,10 @@ dur: duration of the event (sec): INTEGER <br />
 ## Example Code:
 
 ```
+#include "events_lib.h"
 void loop() {
     // Open Motor on pin 13 @ 1:05 from the show and will end in 15 sec
    // Motor will stop @ 1:20
-  event(13,"1:05:,15);
+  event(13,"1:05":,15);
 }
 ```
