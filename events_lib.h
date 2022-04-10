@@ -44,6 +44,7 @@ if(microStart < micros() && microStop >micros())
      }
    } else{
        digitalWrite(pin,LOW);
+       ledState= LOW;
    }
 
 }
