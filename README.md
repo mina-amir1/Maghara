@@ -1,11 +1,10 @@
 # Events Library
 
 ## event( int pin, char *timeStart , int dur)
-
 ### Params:
-pin: the pin number : INTEGER
-timeStart: The Event Time (mm:ss): String
-dur: duration of the event (sec): INTEGER
+pin: the pin number : INTEGER <br />
+timeStart: The Event Time (mm:ss): String <br />
+dur: duration of the event (sec): INTEGER <br />
 
 
 ## Example Code:
